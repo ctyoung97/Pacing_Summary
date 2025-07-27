@@ -1,0 +1,6 @@
+
+Q3 Pacing data setup with core revenue
+Summarize the pacing on this spreadsheet by station by giving me in one column each station worksheet, followed by that station’s total Q3 bookings from cell c40, followed by Local Q2 Pace in cell k34, followed by National Q2 pace in cell k35, followed by Digital Q2 Pace in cell k37, followed by Total Q2 Pace in cell k40. Next, create a new column for each station pulling the data from cell D40 on each sheet less the amount on D36 on each sheet. Call that column Core Rev Q3 2025. Next to that column set up a new column pulling the data from cell F40 on each sheet less the amount on f36. call that column Core Rev Q3 2024. Then create a new column dividing the Core Rev Q3 2025 by the Core Rev Q3 2024 for each station minus 1. Format that column in %. Filter out non station templates.
+
+Q3 Billings prior year
+Summarize the pacing on this spreadsheet by station by giving me in one column each station worksheet, followed by that stations total core bookings in the prior year from cell f40 less cell f36 in the file with 07.21.25 title of the file, then list the total core billing last year in the prior week from cell f40 less cell f36 in the file with 07.14.25 in the title of the file, then subtract the two columns and create a new column titled new core billing in prior year same week. 
