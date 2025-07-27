@@ -9,15 +9,62 @@ The tool processes two Excel files (current week and prior week) and generates t
 1. **Q3 Pacing Setup with Core Revenue** - Analyzes Q3 bookings, pacing data, and core revenue growth
 2. **Q3 Billings Prior Year** - Compares current week vs prior week core billing data
 
+## Getting Started
+
+### Prerequisites
+- Python 3.8 or higher
+- Git (for cloning the repository)
+
+### Installation & Setup
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/ctyoung97/Pacing_Summary.git
+   cd Pacing_Summary
+   ```
+
+2. **Create Virtual Environment**
+   ```bash
+   python -m venv .venv
+   ```
+
+3. **Activate Virtual Environment**
+   - **Windows:**
+     ```bash
+     .venv\Scripts\activate
+     ```
+   - **macOS/Linux:**
+     ```bash
+     source .venv/bin/activate
+     ```
+
+4. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. **Create Required Directories**
+   ```bash
+   mkdir inputs
+   mkdir output
+   ```
+
+6. **Add Your Excel Files**
+   - Place your Excel files in the `inputs/` folder
+   - Files must contain date patterns like "07.21.25" and "07.14.25"
+
 ## File Structure
 
 ```
 Pacing_Summary/
-├── inputs/                     # Place your Excel files here
-├── output/                     # Generated reports appear here
+├── .venv/                      # Virtual environment (created during setup)
+├── inputs/                     # Place your Excel files here (created during setup)
+├── output/                     # Generated reports appear here (created during setup)
 ├── pacing_analyzer.py          # Main analysis script
 ├── run_analysis.bat           # Easy-to-use batch file
+├── requirements.txt           # Python dependencies
 ├── prompts.txt                # Analysis specifications
+├── .gitignore                 # Git ignore file
 └── README.md                  # This file
 ```
 
